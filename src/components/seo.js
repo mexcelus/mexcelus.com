@@ -37,7 +37,7 @@ function SEO({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: 'This is my sample website using Gatsby',
         },
         {
           property: `og:title`,
