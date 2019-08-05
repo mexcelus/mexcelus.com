@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Navigation menuLinks={config.menuLinks}>
       </Navigation>
-        <main>{children}</main>
+      <main>{children}</main>
         
       <footer className="footer container">
         <a href="https://ko-fi.com/taniarascia" target="_blank" rel="noopener noreferrer">
