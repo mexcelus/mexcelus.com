@@ -11,7 +11,7 @@ import config from '../../data/SiteConfig'
 import Helmet from 'react-helmet'
 
 import Navigation from './menu'
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
 
@@ -19,8 +19,10 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
       </Helmet>
-      <Navigation menuLinks={config.menuLinks} />
+      <Navigation menuLinks={config.menuLinks}>
+      </Navigation>
         <main>{children}</main>
+        
       <footer className="footer container">
         <a href="https://ko-fi.com/taniarascia" target="_blank" rel="noopener noreferrer">
           Ko-Fi
