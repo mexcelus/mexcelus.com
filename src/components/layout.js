@@ -7,42 +7,44 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import config from '../../data/SiteConfig'
+import Helmet from 'react-helmet'
 
-import Header from "./header"
-import Menu from "./menu"
+import Navigation from './menu'
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Menu />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <Helmet>
+      </Helmet>
+      <Navigation menuLinks={config.menuLinks} />
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <footer className="footer container">
+        <a href="https://ko-fi.com/taniarascia" target="_blank" rel="noopener noreferrer">
+          Ko-Fi
+        </a>
+        <a href="https://patreon.com/taniarascia" target="_blank" rel="noopener noreferrer">
+          Patreon
+        </a>
+        <a href="https://twitter.com/taniarascia" target="_blank" rel="noopener noreferrer">
+          Twitter
+        </a>
+        <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <a href="https://www.taniarascia.com/rss.xml" target="_blank" rel="noopener noreferrer">
+          RSS
+        </a>
+        <a
+          href="https://github.com/taniarascia/taniarascia.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View source
+        </a>
         </footer>
-      </div>
     </>
   )
 }
