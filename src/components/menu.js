@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import tree from '../../content/images/mxcls.jpg'
+import tree from '../../content/images/test.png'
 
 const Menu = function menu() {
     return (
@@ -10,8 +10,19 @@ const Menu = function menu() {
                     <Link to="/">
                         <img style={{
                             width: '50px', height: '50px', marginBottom: '0'}} src={tree} alt="Broccoli" />
-                        <span className="text">Guillermo Villalta</span>
+                        <span className="text">guillermo villalta</span>
                     </Link>
+                </div>
+                <div className="links">
+                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+                        mexcelus
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+                        blog
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+                        contact
+                    </a>
                 </div>
             </div>
         </nav>
