@@ -51,7 +51,7 @@ body {
     }
 
     .text {
-      font-size: 28px;
+      font-size: 20px;
       padding-left: 15px;
       font-family: Arial, Helvetica, sans-serif;
       color: white;
@@ -82,6 +82,11 @@ body {
       }
     }
 }
+
+.my-Name {
+  display: inline-flex
+}
+
 section,
 summary {
   display: block;
@@ -152,6 +157,7 @@ sup {
 }
 img {
   border-radius: 50%;
+  display: inline;
 }
 svg:not(:root) {
   overflow: hidden;
