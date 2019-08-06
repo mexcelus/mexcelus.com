@@ -1,26 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
     <div className="my-Name">
       <div style={{width: '150px', height: '150px'}}>
       <Image  /> 
       </div>
-      <h3>
-        Guillermo
-      </h3>
+      <div>
+        <h1>
+          Guillermo
+        </h1>
+        <p>
+          I'm a software developer specializing in modern JavaScript living in Salt Lake City, Utah. I enjoy building things from scratch, contributing to open source, and learning new ways to cook broccoli. Welcome to my garden!
+        </p>
+      </div>
       <div>
       </div>
     </div>
     <br></br>
     <br></br>    
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
