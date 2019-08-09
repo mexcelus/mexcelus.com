@@ -4,7 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background: #ffffff;
+  background: url(../images/broccolieverywhere.jpg);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,6 +21,12 @@ main {
   background: #3CB371;
 }
 // menu {}
+
+nav {
+  &:after {
+        content: ' ';
+    }
+}
 
 .nav-container {
   width: 80%;
@@ -88,7 +94,11 @@ main {
 
 .my-Name {
   display: inline-flex;
-  width: 50%;
+}
+
+.my-Input {
+  margin: auto;
+  width: 55%
 }
 
 section,
@@ -162,8 +172,8 @@ sup {
 .me {
   border-radius: 50%;
   border: 2px solid #ffffff;
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  height: 225px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -263,7 +273,6 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -306,7 +315,7 @@ h1 {
   padding-right: 0;
   padding-top: 10px;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -462,7 +471,9 @@ p {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 18px;
 }
 figure {
   margin-left: 0;
