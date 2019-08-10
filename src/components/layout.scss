@@ -43,13 +43,18 @@ nav {
   width: 100%;
   background: #ffffff;
   margin: auto;
-  padding: 30px 3rem;
+  padding: 50px 8rem;
   height: 55px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: height 0.3s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .brand {
     a {
@@ -103,6 +108,7 @@ nav {
   display: inline-flex;
   padding-bottom: 20px;
   background: #ffffff;
+  padding-top: 30px;
 }
 
 .my-Input {
