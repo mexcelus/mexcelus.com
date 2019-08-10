@@ -15,10 +15,7 @@ const Menu = function menu() {
                 </div>
                 <div className="links">
                     <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
-                        about
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
-                        blog
+                        me
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
                         contact

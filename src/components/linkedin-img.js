@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Tweet = () => {
+const LinkedIn = () => {
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "tweet.png" }) {
+      placeholderImage: file(relativePath: { eq: "linkedin.png" }) {
         childImageSharp {
           fluid(maxWidth: 200, maxHeight: 200) {
             ...GatsbyImageSharpFluid
@@ -30,4 +30,4 @@ const Tweet = () => {
 
 }
 
-export default Tweet
+export default LinkedIn

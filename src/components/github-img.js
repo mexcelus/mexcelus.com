@@ -26,7 +26,7 @@ const Octocat = () => {
     }
   `)
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="octocat" />
+    return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="social-media" />
 
 }
 
