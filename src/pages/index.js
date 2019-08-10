@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 import Image from "../components/image"
 import Tweet from "../components/twitter-img"
 import Octocat from "../components/github-img"
@@ -10,7 +11,6 @@ import LinkedIn from "../components/linkedin-img"
 
 const IndexPage = () => (
   <Layout>
-    <br></br>
     <div className="my-Name">
       <div className="my-Input my-Name">
         <div style={{width: '350px'}}>
@@ -37,6 +37,9 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    <div className="main-container">
+    </div>
+    <Footer />
   </Layout>
 )
 
