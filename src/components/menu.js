@@ -14,10 +14,10 @@ const Menu = function menu() {
                     </Link>
                 </div>
                 <div className="links">
-                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+                    <a target="_blank" rel="noopener noreferrer" href="#">
                         me
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+                    <a target="_blank" rel="noopener noreferrer" href="#">
                         contact
                     </a>
                     <a href="/blog">
