@@ -30,6 +30,7 @@ export const pageQuery = graphql`
         allMarkdownRemark {
             edges {
                 node {
+                    id
                     frontmatter {
                         author
                         date

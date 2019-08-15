@@ -5,4 +5,4 @@ title: "My Second Test Post"
 author: "mexcelus"
 ---
 
-This is my second post in Gatsby
+This is my **second** post in Gatsby! Double yeah!!

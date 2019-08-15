@@ -20,6 +20,9 @@ const Menu = function menu() {
                     <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
                         contact
                     </a>
+                    <a href="/blog">
+                        <Link to="/blog">blog</Link>
+                    </a>
                 </div>
             </div>
         </nav>
