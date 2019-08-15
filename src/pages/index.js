@@ -21,7 +21,7 @@ const IndexPage = () => (
             Guillermo V.
           </h1>
           <p>
-            I'm a software developer working with modern Javascript living in SLC, Utah. I enjoy designing and building new stuff, breaking down complex integrations and contributing to open source. Welcome to my cyber garden.
+            I'm a software developer working with modern Javascript living in SLC, Utah. I enjoy designing and building new stuff, breaking down complex integrations and contributing to open source. Welcome to my digital garden.
           </p>
           <div className='my-Name' style={{ paddingLeft: '20px' }}>
             <div style={{ width: '50px', height: '50px' }}>
