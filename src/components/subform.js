@@ -12,7 +12,7 @@ export default class subForm extends React.Component {
                     don't be a stranger!
                 </h3>
                 <p>
-                    i'm all about new and old tech. get in touch with me and let’s talk about geeky stuff or building something together. <b>never any spam, ads, or affiliate links</b>. 
+                    i'm all about new and old tech. get in touch with me and let’s talk about geeky stuff or building something together. <b>never any ads, spam, or affiliate links</b>. 
                 </p>
                 <label style={{
                     paddingRight: "10px",
