@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Footer from "../components/footer"
+import SubForm from "../components/subform"
 import Image from "../components/image"
 import Tweet from "../components/twitter-img"
 import Octocat from "../components/github-img"
@@ -41,6 +42,7 @@ const IndexPage = () => (
     </div>
     <div className="main-container">
     </div>
+    <SubForm />
     <Footer />
   </Layout>
 )
