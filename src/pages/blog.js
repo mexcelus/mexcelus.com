@@ -6,6 +6,9 @@ import Layout from "../components/layout"
 const BlogPage = ({data}) => (
     <Layout>
         <div>
+            <br></br>
+            <br></br>
+            <br></br>
         <h1>Latest Posts!</h1>
         {data.allMarkdownRemark.edges.map(post => (
             <div hey={ post.node.id }>
