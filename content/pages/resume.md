@@ -6,7 +6,7 @@ template: page
 
 ### Software Developer
 
-Passionate software engineer offereing experience in full stack software development - from concept design and POC creation, to rollout of production applications.
+Passionate software engineer with experience in full stack software development - from concept design and POC creation, to full rollout of live production applications.
 
 - [mexcelus.com](https://www.mexcelus.com)
 - Salt Lake City, UT
