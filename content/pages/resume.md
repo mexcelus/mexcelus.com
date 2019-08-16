@@ -26,7 +26,7 @@ Passionate software engineer with experience in full stack software development 
 **Liberty Mountain, LLC** - _2018 - Present | Salt Lake City, UT_
 
 - Developed extensive software implementations, customizations and upgrades for Microsoft 365 apps
-- Developed, designed, and maintained custom, responsive websites based on the Magento platform
+- Developed, designed, and maintained custom, responsive websites based on the Magento platform (https://preview.libertymountain.com)
 - Microsoft SQL Server database management and maintenance
 
 #### Web Developer
@@ -46,3 +46,11 @@ Passionate software engineer with experience in full stack software development 
 - Created traning program for plant engineers based on visual and performance quality controls
 
 ## Open Source Projects
+
+- Coming soon...
+
+## Education
+
+#### B.Sc. in Engineering with an emphasis on Business Administration
+
+**ESEN** - _2009 - 2013 | La Libertad, El Salvador_
