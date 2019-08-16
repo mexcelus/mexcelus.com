@@ -15,7 +15,7 @@ Passionate software engineer with experience in full stack software development 
 
 - **Languages** - JavaScript (ES6+), Java, PHP, HTML5, CSS3, Bash
 - **Concepts** - RESTful API Design/Integration, CI/CD, Agile, Scrum
-- **Tools/Environment** - Node.js, Magento 2, Gatsby, Git, Chrome DevTools, Jira, AWS, CLI, Sass
+- **Tools/Environment** - Node.js, Magento 2, WordPress, Gatsby, Git, Chrome DevTools, Jira, AWS, CLI, Sass
 - **Frameworks/Libraries** - React, jQuery, Moment.js, Bootstrap
 - **Data** - SQL (MySQL, PostgreSQL), NoSQL (MongoDB), Firebase, GraphQL, JSON
 
