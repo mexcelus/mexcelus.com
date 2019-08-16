@@ -11,6 +11,8 @@ import LinkedIn from "../components/linkedin-img"
 
 const IndexPage = () => (
   <Layout>
+    <br></br>
+    <br></br>
     <div className="my-Name">
       <div className="my-Input my-Name">
         <div style={{width: '350px'}}>
