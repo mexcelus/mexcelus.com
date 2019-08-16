@@ -5,29 +5,23 @@ export default class Footer extends React.Component {
         firstName: "",
         lastName: "",
     }
-    render() {
-        return (
-            <footer>
-            <form>
-                <label style={{
-                    paddingRight: "10px",
-                }}>
-                    <b>First name</b>
-                    <input type="text" name="firstName" style={{
-                        marginLeft: "10px",
-                    }}/>
-                </label>
-                <label style={{
-                    paddingRight: "10px",
-                }}>
-                    <b>Last name</b>
-                    <input type="text" name="lastName" style={{
-                        marginLeft: "10px",
-                    }}/>
-                </label>
-                <button type="submit">Submit</button>
-            </form>
-            </footer>
-        )
-    }
+  render() {
+    return (
+      <footer className="footer container">
+        <a href="https://twitter.com/mexcelus" target="_blank" rel="noopener noreferrer">
+            twitter
+        </a>
+        <a href="https://github.com/mexcelus"target="_blank" rel="noopener noreferrer">
+            github
+        </a>
+        <a href="https://www.linkedin.com/in/guillermo-villalta-024b3693/"target="_blank" rel="noopener noreferrer">
+            linkedin
+        </a>
+        <a
+          href="https://github.com/mexcelus/gatsby-crash-course" target="_blank" rel="noopener noreferrer">
+            view source
+        </a>
+      </footer>
+    )
+  }
 }
