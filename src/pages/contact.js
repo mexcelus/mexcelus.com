@@ -12,8 +12,27 @@ const ContactPage = () => (
     <br></br>
     
     <div className="main-container">
+      <div className="contact-me-container">
       <div className="contact-me">
         <SubForm />
+        <p>
+          you can also find me at:
+          <br></br>
+          <br></br>
+          <ul>
+            <li>
+                <b>github:</b> <a href="https://github.com/mexcelus"><b>/mexcelus</b></a>
+            </li>
+            <li>
+                <b>twitter:</b> <a href="https://twitter.com/mexcelus"><b>/mexcelus</b></a>
+            </li>
+            <li>
+                <b>linkedin:</b> <a href="https://www.linkedin.com/in/guillermo-villalta-024b3693/"><b>guillermo villalta</b></a>
+            </li>
+          </ul>
+        </p>
+        <br></br>
+      </div>
       </div>
       </div>
     <Footer />
