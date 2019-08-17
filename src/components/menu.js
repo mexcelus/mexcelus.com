@@ -17,8 +17,8 @@ const Menu = function menu() {
                     <a href="/me">
                         <Link to="/me">me</Link>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="#">
-                        contact
+                    <a href="/contact">
+                        <Link to="/blog">contact</Link>
                     </a>
                     <a href="/blog">
                         <Link to="/blog">blog</Link>
