@@ -18,7 +18,7 @@ const Menu = function menu() {
                         <Link to="/me">me</Link>
                     </a>
                     <a href="/contact">
-                        <Link to="/blog">contact</Link>
+                        <Link to="/contact">contact</Link>
                     </a>
                     <a href="/blog">
                         <Link to="/blog">blog</Link>
