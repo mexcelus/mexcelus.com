@@ -42,7 +42,9 @@ const IndexPage = () => (
     </div>
     <div className="main-container">
     </div>
+    <div className="contact-me" style={{width: '70%'}}>
     <SubForm />
+    </div>
     <Footer />
   </Layout>
 )
