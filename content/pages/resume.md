@@ -1,4 +1,5 @@
 ---
+path: "/resume"
 title: Guillermo Villalta
 slug: resume
 template: page
