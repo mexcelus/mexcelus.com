@@ -30,7 +30,7 @@ const BlogPage = ({data}) => (
 
 export const pageQuery = graphql`
     query BlogIndexQuery {
-        allMarkdownRemark {
+        allMarkdownRemark (filter: {frontmatter: {slug: {eq: "blogpost"}}}){
             edges {
                 node {
                     id
