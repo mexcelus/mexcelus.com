@@ -14,8 +14,8 @@ const Menu = function menu() {
                     </Link>
                 </div>
                 <div className="links">
-                    <a target="_blank" rel="noopener noreferrer" href="#">
-                        me
+                    <a href="/me">
+                        <Link to="/me">me</Link>
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href="#">
                         contact
