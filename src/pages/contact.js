@@ -12,14 +12,10 @@ const ContactPage = () => (
     <br></br>
     
     <div className="main-container">
-      <div>
       <div className="contact-me">
-      <SubForm />
-
+        <SubForm />
       </div>
-
       </div>
-    </div>
     <Footer />
   </Layout>
 )
