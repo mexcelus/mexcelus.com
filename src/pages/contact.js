@@ -10,9 +10,13 @@ const ContactPage = () => (
   <Layout>
     <br></br>
     <br></br>
+    
     <div className="main-container">
+      <div>
       <div className="contact-me">
       <SubForm />
+
+      </div>
 
       </div>
     </div>
