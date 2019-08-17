@@ -11,9 +11,9 @@ const MePage = ({ data }) => (
         <h1>Resume</h1>
         {data.allMarkdownRemark.edges.map(post => (
             <div hey={post.node.id}>
-                <h3>
+                <h1 style={{ color: "#3CB371"}}>
                     {post.node.frontmatter.title}
-                </h3>
+                </h1>
                 <div dangerouslySetInnerHTML={{ __html: post.node.html }} />
                 <br />
                 <br />
