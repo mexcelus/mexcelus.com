@@ -14,15 +14,11 @@ const Menu = function menu() {
                     </Link>
                 </div>
                 <div className="links">
-                    <a href="/me">
                         <Link to="/me">me</Link>
-                    </a>
-                    <a href="/contact">
+
                         <Link to="/contact">contact</Link>
-                    </a>
-                    <a href="/blog">
+              
                         <Link to="/blog">blog</Link>
-                    </a>
                 </div>
             </div>
         </nav>
