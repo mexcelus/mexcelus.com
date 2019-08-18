@@ -5,7 +5,7 @@ slug: resume
 template: page
 ---
 
-### Software Developer
+### Software Developer 💾
 
 Passionate software engineer with experience in full stack software development - from concept design and POC creation, to full rollout of live production applications.
 
