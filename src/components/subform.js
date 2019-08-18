@@ -9,28 +9,31 @@ export default class subForm extends React.Component {
         return (
             <form>
                 <h3>
-                    don't be a stranger!
+                    Don't be a stranger!
                 </h3>
+                <br></br>
                 <p>
-                    i'm all about new and old tech. get in touch with me and let’s talk about geeky stuff or building something together. <b>never any ads, spam, or affiliate links</b>. 
+                    I'm all about new and old tech. get in touch with me and let’s talk about geeky stuff or building something together. <b>never any ads, spam, or affiliate links</b>. 
                 </p>
-                <label style={{
-                    paddingRight: "10px",
-                }}>
-                    <b>name</b>
-                    <input type="text" name="name" style={{
-                        marginLeft: "10px",
-                    }} />
-                </label>
-                <label style={{
-                    paddingRight: "10px",
-                }}>
-                    <b>email</b>
-                    <input type="text" name="email" style={{
-                        marginLeft: "10px",
-                    }} />
-                </label>
-                <button type="submit">submit</button>
+                <div style={{ textAlign: "center" }}>
+                    <label style={{
+                        paddingRight: "10px",
+                    }}>
+                        <b>name</b>
+                        <input type="text" name="name" style={{
+                            marginLeft: "10px",
+                        }} />
+                    </label>
+                    <label style={{
+                        paddingRight: "10px",
+                    }}>
+                        <b>email</b>
+                        <input type="text" name="email" style={{
+                            marginLeft: "10px",
+                        }} />
+                    </label>
+                    <button type="submit">submit</button>
+                </div>
             </form>
         )
     }
