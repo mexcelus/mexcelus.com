@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 
 const BlogPage = ({data}) => (
     <Layout>
-        <div>
+        <div className="centered-content">
             <br></br>
             <br></br>
             <br></br>
-        <h1>Latest Posts!</h1>
+        <h1 style={{ paddingLeft: "0px" }}>Latest Posts!</h1>
         {data.allMarkdownRemark.edges.map(post => (
             <div hey={ post.node.id }>
                 <h3>
