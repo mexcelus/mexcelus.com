@@ -258,7 +258,12 @@ button {
   font-size: medium;
   border: 2px solid #3CB371;
   border-radius: 20px;
-  color: #ffffff
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+      background: #2E8B57;
+  }
 }
 
 input,
