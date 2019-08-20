@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'gatsby-link'
 
 import Layout from "../components/layout"
 import Footer from "../components/footer"
@@ -48,14 +49,20 @@ const IndexPage = () => (
         <h3>&nbsp;</h3>
       </div>
       <div className="content-holder">
-      <div className="home-content">
-      <TreeMower />
-        <h5>Blog Posts</h5>
-      </div>
-      <div className="home-content">
-      <TreeHouse />
-        <h5>Open Source Pojects</h5>
-      </div>
+        <Link to="/blog">
+          <div className="home-content">
+          <TreeMower />
+            <h5>Blog Posts</h5>
+            <h3>&nbsp;</h3>
+          </div>
+        </Link>
+        <Link to="#">
+          <div className="home-content">
+          <TreeHouse />
+            <h5>Open Source Pojects</h5>
+            <h3>(comming soon)</h3>
+          </div>
+        </Link>
       </div>
     </div>
     <div className="sub-content">
