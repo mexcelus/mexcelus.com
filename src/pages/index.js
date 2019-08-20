@@ -7,6 +7,7 @@ import Image from "../components/image"
 import Tweet from "../components/twitter-img"
 import Octocat from "../components/github-img"
 import LinkedIn from "../components/linkedin-img"
+import TreeHouse from "../components/treehouse"
 
 // import "../components/twitter"
 
@@ -41,6 +42,13 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="main-container">
+      <div style={{ width: '225px', height: '225px' }} className="home-content">
+      <TreeHouse />
+      </div>
+    </div>
+    <div className="sub-content">
+    <h3>REALLY COOL STUFF ON THE WAY...</h3>
+
     </div>
     <div className="contact-me" style={{width: '70%'}}>
     <SubForm />
