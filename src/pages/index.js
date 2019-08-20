@@ -44,15 +44,22 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="main-container">
-      <div style={{ width: '225px', height: '225px' }} className="home-content">
-      <TreeHouse />
+      <div className="sub-content">
+        <h3>&nbsp;</h3>
       </div>
-      <div style={{ width: '225px', height: '225px' }} className="home-content">
+      <div className="content-holder">
+      <div className="home-content">
       <TreeMower />
+        <h5>Blog Posts</h5>
+      </div>
+      <div className="home-content">
+      <TreeHouse />
+        <h5>Open Source Pojects</h5>
+      </div>
       </div>
     </div>
     <div className="sub-content">
-      <h3>REALLY COOL STUFF ON THE WAY...</h3>
+      <h3>GROWING NEW COOL STUFF...</h3>
     </div>
     <div className="contact-me" style={{width: '70%'}}>
     <SubForm />
