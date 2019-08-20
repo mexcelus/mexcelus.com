@@ -8,6 +8,8 @@ import Tweet from "../components/twitter-img"
 import Octocat from "../components/github-img"
 import LinkedIn from "../components/linkedin-img"
 import TreeHouse from "../components/treehouse"
+import TreeMower from "../components/treemower"
+
 
 // import "../components/twitter"
 
@@ -44,6 +46,9 @@ const IndexPage = () => (
     <div className="main-container">
       <div style={{ width: '225px', height: '225px' }} className="home-content">
       <TreeHouse />
+      </div>
+      <div style={{ width: '225px', height: '225px' }} className="home-content">
+      <TreeMower />
       </div>
     </div>
     <div className="sub-content">
