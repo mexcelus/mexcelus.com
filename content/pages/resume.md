@@ -7,7 +7,8 @@ template: page
 
 ### Software Developer 💾
 
-Passionate software engineer with experience in full stack software development - from concept design and POC creation, to full rollout of live production applications.  
+Passionate software engineer with experience in full stack software development - from concept design and POC creation, to full rollout of live production applications. <br />
+<br />
 - [mexcelus.com](https://www.mexcelus.com)
 - Salt Lake City, UT
 
@@ -51,6 +52,10 @@ Passionate software engineer with experience in full stack software development 
 
 ## Education
 
+#### University of Utah Coding Bootcamp
+
+**University of Utah** - _2019 | Salt Lake City, UT_  
+<br />  
 #### B.Sc. in Engineering with an emphasis on Business Administration
 
 **ESEN** - _2009 - 2013 | La Libertad, El Salvador_
