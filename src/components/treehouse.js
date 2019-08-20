@@ -18,7 +18,7 @@ const TreeHouse = () => {
     query {
       placeholderImage: file(relativePath: { eq: "broccolihouse.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 200, maxHeight: 200) {
+          fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid
           }
         }

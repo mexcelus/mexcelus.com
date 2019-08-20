@@ -18,7 +18,7 @@ const TreeMower = () => {
     query {
       placeholderImage: file(relativePath: { eq: "broccmower.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200, maxHeight: 200) {
+          fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid
           }
         }
