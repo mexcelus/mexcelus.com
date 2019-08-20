@@ -132,6 +132,25 @@ nav {
   padding-bottom: 5.5rem;
 }
 
+.home-content {
+  // display: inline-block;
+  width: 100%;
+  margin: auto;
+  padding-top: 2em;
+  text-align: center;
+  color: #000000;
+}
+
+.sub-content {
+  text-align: center;
+  background: #2E8B57;
+  color: #ffffff;
+}
+
+.under-construction {
+  border: 3px solid #778899;
+}
+
 .contact-me-container {
   position: relative;
   top: 50px;
