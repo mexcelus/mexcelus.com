@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
 
 html {
   font-family: sans-serif;
@@ -86,7 +87,7 @@ nav {
     .text {
       font-size: 20px;
       padding-left: 15px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Leckerli One', cursive;
       color: #000000;
     }
 }
@@ -125,7 +126,12 @@ nav {
 
 .my-Input {
   margin: auto;
-  width: 55%
+  width: 55%;
+}
+
+.garden {
+  color: #2E8B57;
+  font-weight: bold;
 }
 
 .main-container {
