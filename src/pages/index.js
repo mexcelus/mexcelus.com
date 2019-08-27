@@ -28,7 +28,7 @@ const IndexPage = () => (
             Guillermo V.
           </h1>
           <p>
-            I'm a software developer working with modern Javascript trying to record my journey into software development. Based on SLC, Utah. I enjoy designing and building new stuff, dissecting complex integrations and contributing to open source. Welcome to my digital garden.
+            I'm a software developer working with modern Javascript trying to record my journey into software development. Based on SLC, Utah. I enjoy designing and building new stuff, dissecting complex integrations and contributing to open source. <span className="garden">Welcome to my digital garden.</span>
           </p>
           <div className='my-Name' style={{ paddingLeft: '20px' }}>
             <div style={{ width: '50px', height: '50px' }}>
@@ -66,7 +66,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="sub-content">
-      <h3>ALWAYS GROWING COOL NEW STUFF...</h3>
+      <h3>ALWAYS BUILDING COOL NEW STUFF...</h3>
     </div>
     <div className="contact-me" style={{width: '70%'}}>
     <SubForm />
