@@ -1,5 +1,6 @@
 import React from "react"
 import Link from 'gatsby-link'
+import { Helmet } from 'react-helmet'
 
 import Layout from "../components/layout"
 import Footer from "../components/footer"
@@ -16,6 +17,10 @@ import TreeMower from "../components/treemower"
 
 const IndexPage = () => (
   <Layout>
+  <Helmet>
+    <meta name="twitter:card" content="summary_large_image"></meta>
+    <meta name="twitter:image" content="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv"></meta>
+  </Helmet>
     <br></br>
     <br></br>
     <div className="my-Name">
