@@ -19,7 +19,7 @@ const IndexPage = () => (
   <Layout>
   <Helmet>
     <meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:image" content="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv"></meta>
+    <meta name="twitter:image" content="https://i.pinimg.com/originals/97/7e/ff/977effff675dad9a1963c4fefd9f821d.jpg"></meta>
     <meta name="twitter:title" content="www.mexcelus.com"></meta>
   </Helmet>
     <br></br>
