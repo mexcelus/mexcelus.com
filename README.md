@@ -1,4 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46e25582-7e8d-43d2-9993-b78602808a7d/deploy-status)](https://app.netlify.com/sites/naughty-roentgen-d0fdbf/deploys)
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
