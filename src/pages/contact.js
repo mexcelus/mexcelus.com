@@ -16,7 +16,7 @@ const ContactPage = () => (
         <div className="contact-me">
           <SubForm />
           <p>
-            you can also find me at:
+            You can also find me at:
             <br></br>
             <br></br>
             <ul>
@@ -34,6 +34,9 @@ const ContactPage = () => (
           <br></br>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
     <Footer />
   </Layout>
