@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const TreeHouse = () => {
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "broccolihouse.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "leaf-3.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid

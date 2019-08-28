@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const TreeMower = () => {
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "broccmower.png" }) {
+      placeholderImage: file(relativePath: { eq: "leaf-1.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid
