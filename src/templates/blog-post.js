@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
 
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 export default function Template({data}) {
     const post = data.markdownRemark
@@ -15,6 +16,7 @@ export default function Template({data}) {
             <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
             <div dangerouslySetInnerHTML={{__html: post.html}}/>
         </div>
+        <Footer />
         </Layout>
     )
 }
