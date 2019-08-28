@@ -117,9 +117,15 @@ nav {
     }
 }
 
+.garden-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  line-height: 14px;
+}
+
 .my-Name {
   display: inline-flex;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   background: #ffffff;
   padding-top: 30px;
 }
@@ -135,7 +141,7 @@ nav {
 }
 
 .main-container {
-  background: url(../images/broccolieverywhere.jpg);
+  background: #F5FFFA;
   padding-bottom: 1em;
 }
 
