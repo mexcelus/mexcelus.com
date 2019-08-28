@@ -1,8 +1,8 @@
 ---
 path: "/post-one"
-date: "2019-07-29"
-title: "Building a fast SSG with Gatsby"
-author: "mexcelus"
+date: "2019-08-28"
+title: "Building a fast SSG with Gatsby.js"
+author: "Guillermo V."
 slug: "blogpost"
 ---
 
