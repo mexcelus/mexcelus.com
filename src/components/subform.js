@@ -19,17 +19,9 @@ export default class subForm extends React.Component {
                     <label style={{
                         paddingRight: "10px",
                     }}>
-                        <b>name</b>
-                        <input type="text" name="name" style={{
-                            marginLeft: "10px",
-                        }} />
-                    </label>
-                    <label style={{
-                        paddingRight: "10px",
-                    }}>
-                        <b>email</b>
+                        <b>email:</b>
                         <input type="text" name="email" style={{
-                            marginLeft: "10px",
+                            marginLeft: "10px", width: "250px"
                         }} />
                     </label>
                     <button type="submit">submit</button>
