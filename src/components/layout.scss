@@ -219,6 +219,17 @@ nav {
 .blog-post {
   width: 70%;
   margin: auto;
+  margin-top: 4em;
+
+  p {
+    margin-bottom: 1em;
+  }
+  h1 {
+    color: #2E8B57;
+  }
+  h3, h4 {
+    color: #3CB371;
+  }
 }
 
 section,
