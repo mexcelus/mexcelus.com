@@ -42,21 +42,13 @@ main {
 }
 // menu {}
 
-nav {
-  &:after {
-        content: ' ';
-    }
-}
-
 .nav-container {
-  width: 80%;
   top: 0;
   left: 0;
   z-index: 3;
-  width: 100%;
   background: #ffffff;
   margin: auto;
-  padding: 50px 8rem;
+  padding: 2rem;
   height: 55px;
   margin: auto;
   display: flex;
@@ -65,32 +57,34 @@ nav {
   transition: height 0.3s ease;
   position: fixed;
   top: 0;
-  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 100%;
 }
+
 .brand {
-    a {
-      display: flex;
-      align-items: center;
-      color: #000000;
-      margin-right: 0;
-      font-weight: 600;
-      font-size: 1.1rem;
+  a {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-right: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
 
-      &:hover,
-      &:focus {
-        color: #3CB371;
-      }
+    &:hover,
+    &:focus {
+      color: #3CB371;
     }
+  }
 
-    .text {
-      font-size: 20px;
-      padding-left: 15px;
-      font-family: 'Leckerli One', cursive;
-      color: #000000;
-    }
+  .text {
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Leckerli One', cursive;
+    color: #000000;
+  }
 }
+
 .links {
     display: flex;
     flex-direction: row;
@@ -185,7 +179,6 @@ nav {
 
 .content-holder {
   margin: auto;
-  width: 450px;
   padding: 0px;
   text-align: center;
   h5 {
