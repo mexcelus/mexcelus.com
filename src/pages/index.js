@@ -59,7 +59,7 @@ const IndexPage = () => (
         <Link to="#">
           <div className="home-content">
           <TreeHouse />
-            <h5 className="garden-text" style={{ background: "#F5FFFA"}}>Open Source Pojects</h5>
+            <h5 className="garden-text" style={{ background: "#F5FFFA"}}>Open Source</h5>
             <h3 className="garden-text" style={{ background: "#F5FFFA"}}>(comming soon)</h3>
           </div>
         </Link>
