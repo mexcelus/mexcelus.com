@@ -6,9 +6,9 @@ import Layout from "../components/layout"
 import Footer from "../components/footer"
 import SubForm from "../components/subform"
 import Image from "../components/image"
-// import Tweet from "../components/twitter-img"
-// import Octocat from "../components/github-img"
-// import LinkedIn from "../components/linkedin-img"
+import Tweet from "../components/twitter-img"
+import Octocat from "../components/github-img"
+import LinkedIn from "../components/linkedin-img"
 import TreeHouse from "../components/treehouse"
 import TreeMower from "../components/treemower"
 
@@ -36,6 +36,17 @@ const IndexPage = () => (
           <p>
             I'm a software developer working with modern Javascript trying to record my journey into software development. Based on SLC, Utah. I enjoy designing and building new stuff, dissecting complex integrations and contributing to open source. <span className="garden">Welcome to my digital garden.</span>
           </p>
+          <div className="social-media">
+          <a href="https://twitter.com/mexcelus">
+          <Tweet />
+          </a>
+          <a href="https://github.com/mexcelus">
+          <Octocat />
+          </a>
+          <a href="https://www.linkedin.com/in/guillermo-villalta-024b3693/">
+          <LinkedIn />
+          </a>
+          </div>
         </div>
       </div>
     </div>
