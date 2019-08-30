@@ -130,9 +130,47 @@ nav {
   padding-top: 30px;
 }
 
+.my-picture {
+  margin: auto;
+  width: 40%;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.my-info {
+  width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+
+.my-info {
+  text-align: center;
+  width: 90%;
+}
+
+.my-picture {
+  margin: auto;
+  width: 40%;
+  padding-top: 40px;
+}
+
+.my-Name {
+  display: contents;
+  padding-bottom: 15px;
+  background: #ffffff;
+  margin-top: 30px;
+}
+
+}
+
+.social-media {
+  float: left;;
+}
+
 .my-Input {
   margin: auto;
-  width: 55%;
+  width: 65%;
 }
 
 .garden {
@@ -326,6 +364,18 @@ sup {
   width: 225px;
   height: 225px;
 }
+
+@media screen and (max-width: 600px) {
+
+.me {
+  border-radius: 50%;
+  border: 3px solid #000000;
+  width: 200px;
+  height: 200px;
+}
+
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
