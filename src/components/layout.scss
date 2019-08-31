@@ -405,7 +405,21 @@ button {
   }
 }
 
-input,
+input {
+  border: 2px solid #3CB371;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 700px) {
+
+input {
+  border: 2px solid #3CB371;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+}
+
 optgroup,
 select,
 textarea {
