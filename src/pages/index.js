@@ -62,13 +62,13 @@ const IndexPage = () => (
             <h3 className="garden-text" style={{ background: "#F5FFFA"}}>&nbsp;</h3>
           </div>
         </Link>
-        <Link to="#">
+        <a href="https://gevh.dev">
           <div className="home-content">
           <TreeHouse />
             <h5 className="garden-text" style={{ background: "#F5FFFA"}}>Open Source</h5>
-            <h3 className="garden-text" style={{ background: "#F5FFFA"}}>(comming soon)</h3>
+            <h3 className="garden-text" style={{ background: "#F5FFFA" }}>&nbsp;</h3>
           </div>
-        </Link>
+        </a>
       </div>
     </div>
     <div className="sub-content">
