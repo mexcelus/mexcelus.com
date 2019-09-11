@@ -34,7 +34,7 @@ const IndexPage = () => (
             Guillermo V.
           </h1>
           <p>
-            I'm a software developer working with modern Javascript trying to record my journey into software development. Based on SLC, Utah. I enjoy designing and building new stuff, dissecting complex integrations and contributing to open source. <span className="garden">Simplicity is the ultimate sophistication</span>
+            I'm a software developer working with modern Javascript trying to record my journey into software development. Based on SLC, Utah. I enjoy designing and building new stuff, dissecting complex integrations and contributing to open source. <span className="garden">Simplicity is the ultimate sophistication!</span>
           </p>
           <div className="social-media">
           <a href="https://twitter.com/mexcelus">
