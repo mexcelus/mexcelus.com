@@ -20,7 +20,7 @@ export default class subForm extends React.Component {
                         paddingRight: "10px",
                     }}>
                         <b>email:</b>
-                        <input type="text" name="email" placeholder="johndoe@me.com" style={{
+                        <input type="email" name="email" placeholder="johndoe@me.com" style={{
                             marginLeft: "10px", width: "250px"
                         }} />
                     </label>
