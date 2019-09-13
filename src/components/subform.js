@@ -7,7 +7,7 @@ export default class subForm extends React.Component {
     }
     render() {
         return (
-            <form>
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                 <h3>
                     Don't be a stranger!
                 </h3>
@@ -20,7 +20,7 @@ export default class subForm extends React.Component {
                         paddingRight: "10px",
                     }}>
                         <b>email:</b>
-                        <input type="text" name="email" style={{
+                        <input type="text" name="email" placeholder="johndoe@me.com" style={{
                             marginLeft: "10px", width: "250px"
                         }} />
                     </label>
