@@ -7,7 +7,7 @@ export default class subForm extends React.Component {
     }
     render() {
         return (
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="contact" method="post" data-netlify="true">
                 <h3>
                     Don't be a stranger!
                 </h3>
