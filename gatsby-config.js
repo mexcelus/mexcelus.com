@@ -1,6 +1,8 @@
+const config = require('./data/SiteConfig')
+
 module.exports = {
   siteMetadata: {
-    title: `Guillermo Villalta`,
+    title: config.siteTitle,
     description: `Website running on Gatsby and React.`,
     author: `@mexcelus`,
   },

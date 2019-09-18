@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+const config = require('./data/SiteConfig')
+
 
 const Header = ({ siteTitle }) => (
   <header
@@ -24,7 +26,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {config.siteTitle}
         </Link>
       </h1>
     </div>
