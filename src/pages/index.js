@@ -18,6 +18,7 @@ import TreeMower from "../components/treemower"
 const IndexPage = () => (
   <Layout>
   <Helmet>
+    <title>MEXCELUS</title>
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:image" content="https://i.pinimg.com/originals/97/7e/ff/977effff675dad9a1963c4fefd9f821d.jpg"></meta>
     <meta name="twitter:title" content="www.mexcelus.com"></meta>
