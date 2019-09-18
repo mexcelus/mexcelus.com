@@ -71,9 +71,9 @@ const IndexPage = () => (
           </div>
         </a>
       </div>
-    </div>
-    <div className="sub-content">
-      <h3>ALWAYS BUILDING COOL NEW STUFF...</h3>
+      <div className="sub-content">
+        <h3>ALWAYS BUILDING COOL NEW STUFF...</h3>
+      </div>
     </div>
     <div className="contact-me" style={{width: '70%'}}>
     <SubForm />
