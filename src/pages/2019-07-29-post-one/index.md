@@ -3,7 +3,7 @@ path: "/post-one"
 date: "2019-08-28"
 title: "Building a fast SSG with Gatsby.js"
 author: "Guillermo V."
-thumbnail: "../../images/gatsby-icon.png"
+thumbnail: "../images/gatsby-icon.png"
 slug: "blogpost"
 ---
 
