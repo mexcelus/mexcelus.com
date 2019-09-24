@@ -1,9 +1,9 @@
 ---
-path: "/post-one"
-date: "2019-08-28"
-title: "Building a fast SSG with Gatsby.js"
-author: "Guillermo V."
 thumbnail: "../images/gatsby-icon.png"
+date: "2019-08-28"
+path: "/post-one"
+title: "Building a BLAZINGLY fast SSG with Gatsby.js"
+author: "Guillermo V."
 slug: "blogpost"
 ---
 

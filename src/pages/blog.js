@@ -12,6 +12,7 @@ const BlogPage = ({data}) => (
         <h1 style={{ paddingLeft: "0px" }}>Latest Posts!</h1>
         {data.allMarkdownRemark.edges.map(post => (
             <div hey={ post.node.id }>
+                <img src={require("../images/gatsby-icon.png")} alt="thumbnail" className="post-thumbnail"/>
                 <h3>
                     {post.node.frontmatter.title}
                 </h3>
