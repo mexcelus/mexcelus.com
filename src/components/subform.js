@@ -14,7 +14,7 @@ export default class subForm extends React.Component {
                 </h3>
                 <br></br>
                 <p>
-                    I'm all about new and old tech. get in touch with me and let’s talk about geeky stuff or building something together. <b>never any ads, spam, or affiliate links</b>. 
+                    I'm all about new and old tech. Let’s talk about geeky stuff or building something together. <b>never any ads, spam, or affiliate links</b>. 
                 </p>
                 <div style={{ textAlign: "center" }}>
                     <label htmlFor="name" style={{
