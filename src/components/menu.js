@@ -9,7 +9,7 @@ const Menu = function menu() {
                 <div className="brand">
                     <Link to="/">
                         <img style={{
-                            width: '45px', height: '45px', marginBottom: '0'}} src={triangle} alt="Broccoli" />
+                            width: '35px', height: '35px', marginBottom: '0'}} src={triangle} alt="Broccoli" />
                         <span className="text">mexcelus</span>
                     </Link>
                 </div>
