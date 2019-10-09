@@ -12,7 +12,7 @@ const MePage = ({ data }) => (
         <h1 style={{ paddingLeft: "0px" }}>Resume</h1>
         {data.allMarkdownRemark.edges.map(post => (
             <div hey={post.node.id}>
-                <h1 style={{ color: "#3CB371"}}>
+                <h1 style={{ color: "#DDA0DD"}}>
                     {post.node.frontmatter.title}
                 </h1>
                 <div dangerouslySetInnerHTML={{ __html: post.node.html }} />
