@@ -48,7 +48,7 @@ Passionate software engineer with experience in full stack software development 
 
 ## Open Source Projects
 
-gevh.dev
+[gevh.dev](https://gevh.dev)
 
 ## Education
 
